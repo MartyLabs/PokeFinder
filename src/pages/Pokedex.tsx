@@ -2,7 +2,7 @@ import { useState } from "react";
 import PokeCard from "../components/Pokemon/PokeCard";
 import SearchBar from "../components/UI/SearchBar";
 import { useQueryClient } from "@tanstack/react-query";
-import PokeDetails from "../components/Pokemon/PokeDetails";
+import PokeDetails from "../components/Pokemon/PokeDetails/PokeDetails";
 import Spinner from "../components/UI/Spinner";
 import { PokedexProps, PokemonType } from "../types";
 
