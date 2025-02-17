@@ -21,7 +21,7 @@ const Pokedex = (props: PokedexProps) => {
         <img
           src={"pokeball.png"}
           alt={"name"}
-          className="absolute top-0 right-0 transform translate-x-1/3 -translate-y-1/3 opacity-40 rotate-18 w-120 h-120 object-contain group-hover:scale-110 transition-transform duration-150"
+          className="absolute top-0 right-0 transform translate-x-1/3 -translate-y-1/3 opacity-40 rotate-18 w-120 h-120 object-contain"
         />
         <SearchBar onChange={setSearch} />
         {isLoading ? (
