@@ -10,7 +10,7 @@ const Abilities = ({ pokemon }: { pokemon: PokemonType }) => {
       return acc;
     }, []);
 
-    setAbilities(arr);
+    setAbilities(arr.slice(0, 2));
   }, [pokemon.abilities]);
 
   return (

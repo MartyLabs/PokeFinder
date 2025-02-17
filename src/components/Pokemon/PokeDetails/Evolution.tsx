@@ -35,7 +35,7 @@ const Evolution = ({ pokemon }: { pokemon: PokemonType }) => {
               className="w-18 h-18"
             />
             {index + 1 < evolution.length ? (
-              <div className="bg-gray-100 flex flex-row justify-center items-center w-full rounded-full py-1">
+              <div className="bg-gray-100 flex flex-row justify-center items-center w-full max-w-15 rounded-full py-1">
                 <span className="text-xs font-bold">
                   {element.min_level ? "Lv." + element.min_level : "?"}
                 </span>
